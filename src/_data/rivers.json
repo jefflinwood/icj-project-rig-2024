@@ -1,0 +1,12 @@
+{
+  "rivers": [
+    {
+      "name": "Colorado River",
+      "length": 400
+    },
+    {
+      "name": "Rio Grande",
+      "length": 600
+    }
+  ]
+}
