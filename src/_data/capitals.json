@@ -1,0 +1,26 @@
+{
+  "Cities": [
+    {
+      "Name": "Austin",
+      "Population": 1000000,
+      "State": "Texas",
+      "slug": "austin",
+      "image": "austin.jpg",
+      "images": "austin1.jpg, austin2.jpg"
+    },
+    {
+      "Name": "Santa Fe",
+      "Population": 30000,
+      "State": "New Mexico",
+      "slug": "santa-fe",
+      "image": "640px-Palace_of_the_Governors.jpg"
+    },
+    {
+      "Name": "Baton Rouge",
+      "Population": 240000,
+      "State": "Lousiana",
+      "slug": "baton-rouge",
+      "image": "batonrouge.jpg"
+    }
+  ]
+}

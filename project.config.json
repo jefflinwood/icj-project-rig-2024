@@ -6,18 +6,18 @@
       "name": "library"
     },
     {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
+      "fileId": "1yJA2RmEFGgpM09cqs4yb1aWCH38GiJuyIKsf8kQkbSE",
       "type": "sheet",
-      "name": "bookstores"
+      "name": "capitals"
     }
   ],
   "to_bake": [
     {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
+      "template": "bake-city",
+      "data": "capitals",
+      "array": "Cities",
       "slug": "slug",
-      "path": "books"
+      "path": "capitals"
     }
   ]
 }

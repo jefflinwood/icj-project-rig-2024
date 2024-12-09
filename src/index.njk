@@ -11,20 +11,12 @@
   <h2>Library books loop</h2>
   <p>This loops through data that came from a Google Docs example.</p>
   <div class="row">
-    {% for book in library.books %}
+    {% for city in capitals.Cities %}
       <div class="col">
-        <img src="img/{{ book.slug }}.jpg" alt="" class="img-fluid">
-        <h3><a href="books/{{ book.slug }}.html">{{ book.title }}</a></h3>
+        <img src="img/{{ city.image }}" alt="Photo of {{ city.Name }}" class="img-fluid">
+        <h3><a href="capitals/{{ city.slug }}.html">{{ city.Name }}</a></h3>
       </div>
     {% endfor %}
   </div>
-  <h2>Bookstores loop</h2>
-  <p>This loops through data that came from a Google Sheet example.</p>
-  <hr>
-  {% for store in bookstores.stores %}
-    <h3><a href="{{ store.url }}" target="_blank">{{ store.name }}</a></h3>
-    <p>{{ store.address}}, {{ store.city }}, {{ store.state }} {{ store.zip }}</p>
-    <hr>
-  {% endfor %}
 </div>
 {% endblock %}
